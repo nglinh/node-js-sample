@@ -6,10 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 
 app.get('/', function(request, response) {
-	var i = 0;
-	for (i = 0; i < 100; i++){
-		console.log('hohohoho');
-	}
+	// z
   response.send('Hello Boostio!')
 })
 
